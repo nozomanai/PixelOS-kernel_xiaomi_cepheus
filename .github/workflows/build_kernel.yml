@@ -25,7 +25,7 @@ jobs:
 
       - name: Build
         run: |
-          bash ./build.sh
+          sh ./build.sh
 
       - name: Release
         uses: "marvinpinto/action-automatic-releases@latest"
